@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+body{
+    position:sticky;
+}
+.background-image{
+    background-image: url('banner-bg-1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.hover-links{
+    color: white;
+    font-weight: 700;
+    transition: 0.2s ease-out;
+}
+.hover-links:hover{
+    color: #2294ed;
+}
+.small-text{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: 20px; 
+}
+.top-banner{
+    background-color: #2294ed;
+   /* background-image: url('call-bg.png');*/
+    background-size: 300px;
+}
+.banner-text{
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+
+}
+.main-nav{
+    display: flex;
+    align-items: center;
+    margin-top: 15x;
+    justify-content: space-between;
+    border-bottom: 1.5px dashed white;
+}
+.company-logo img{
+    width: 94px;
+    height: 94px;
+}
+
+.select-btn{
+    font-weight: 700;
+    font-size: 1rem;
+    color: white;
+    padding: 5px;
+    background-color:  rgb(20,13,116);
+    border-radius: 6px;
+}
+.nav-links ul{
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+    gap: 40px;
+}
+.nav-links a{
+    text-decoration: none;
+}
+.nav-links{
+    flex-basis: 730px;
+}
+    /* dashboard CSS */
+    .route{
+        display:flex;
+        margin-top: 80px;
+    }
+    .profile-section{
+        display: flex;
+        gap: 35px;
+    }
+    .profile-section-left{
+        margin-top: 30px;
+        width: 350px;
+        height: 626px;
+        border-radius: 30px;
+        box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
+        padding: 30px;
+        background-color: white;
+        color: #52606d;
+    }
+    .profile-section-left img{
+        width: 100px;
+        height: 100px;
+        margin-left: 114px;
+        margin-bottom:20px;
+    }
+    .profile-section-left h3,p{
+        line-height: 10px;
+       text-align:center;
+    }
+    .profile-sections{
+        margin-top: 50px;
+    }
+    .profile-sections i{
+        font-size: 1.7rem;
+        padding: 8px 8px 0px 0px;
+    }
+    .profile-sections a{
+    line-height:50px;
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin-left: 80px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    }
+    .profile-sections a:hover{
+        background-color: rgb(209, 209, 209);
+        border-radius: 10px;
+        transform:scale(0.5);
+    -webkit-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    }
+    .profile-section-Right-myActivity{
+        margin-top: 30px;
+        width: 730px;
+        height: 360px;
+        border-radius: 30px;
+        box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
+        padding: 30px;
+        background-color: white;
+        color: #52606d;
+    }
+    .myRewards{
+        border-top: 1px solid grey;
+        margin-top: 25px;
+        display:flex;
+        justify-content:space-between;
+    }
+    .myItems{
+        margin-top: 55px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+        border-radius:20px;
+        width: 202px;
+        height: 227px;
+        text-align: center;
+}
+    .myItems img{
+        margin: 20px 0px 10px 0px;
+    }
+
+    .PurchasingHistory{
+        margin-top: 30px;
+        width: 696px;
+        height: 562px;
+        border-radius: 30px;
+        box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
+        padding: 30px;
+        background-color: white;
+        color: #52606d;
+        position: absolute;
+        z-index: 2;
+        top: 720px;
+        left: 578px;
+    }
+    .history{
+        border-top: 1px solid grey;
+        margin-top: 25px;
+        display:flex;
+        justify-content:space-between;
+    }
+    .productno{
+        margin-top: 25px;
+    }
+    /* .table1,tr,td {
+        border: 2px solid red;
+    } */
+    .table1{
+        width: 700px;
+        text-align: left;
+    }
+    .table1 .thq{
+        padding-bottom: 15px;
+    
+        
+    }
+    .table1 .tdq{
+        border-bottom: 1px solid grey;
+        padding: 10px 0px 15px 0px;
+    }
+    footer1 {
+        display: flex;
+        border-radius: 20px;
+        background-color: #e5ebf2;
+        margin-top: 50px;
+        justify-content: space-between;
+    }
+    footer1{
+        display: flex;
+        border-radius: 20px;
+        background-color: #e5ebf2;
+        margin-top: 50px;
+        justify-content: space-between;
+    }
+    .container1{
+        background-color: white;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); 
+        max-width: 1180px;
+        margin-inline: 100px;
+        padding-inline: 20px;
+        margin-bottom: 65px;
+        margin-top: 470px;
+    }
+    .container1 .foot-panel1-right .e-mail{
+        border-radius: 35px;
+        width: 65%;
+        height: 25%;
+        padding-left: 20px;
+    }
+    .container1 .foot-panel1-right .register-btn{
+        border-radius: 35px;
+        height: 30%;
+        width: 25%;
+        border: none;
+        font-weight: bold;
+        color: white;
+        font-size: medium;
+        background-image: linear-gradient(rgb(73,73,220),rgb(95, 95, 167));
+    }
+    footer{
+        display: flex;
+        border-radius: 20px;
+        background-color: #e5ebf2;
+        margin-top: 50px;
+        justify-content: center;
+    }
+    footer{
+        background-image: url('footer-bg.jpg');
+        /* margin-top: 100px; */
+        background-size: cover;
+        width: 100%;
+        height: 560px;
+        color: white;
+    }
+    .footer-panel1{
+        display: flex;
+        padding: 100px;
+        align-items: center;
+        justify-content: space-evenly;;
+    }
+    .footer-panel1 a,li{
+        text-decoration: none;
+        list-style-type: none;
+        line-height: 40px;
+        color: white;
+    }
+    .footer-panel1 a:hover{
+        text-decoration: line;
+        color: red;
+        cursor: pointer;
+    }

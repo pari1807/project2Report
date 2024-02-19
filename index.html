@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyAuctionBid</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Auction.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans:wght@500&family=Roboto:ital,wght@0,300;0,700;1,500&display=swap" rel="stylesheet">
+<script>
+        function changePage() {
+          var dropdown = document.getElementById("links");
+          var selectedValue = dropdown.options[dropdown.selectedIndex].value;
+    
+          // Check if a valid option is selected
+          if (selectedValue) {
+            // Redirect to the selected page
+            window.location.href = selectedValue;
+          }
+        }
+        function changePage() {
+            var dropdown = document.getElementById("pages");
+            var selectedValue = dropdown.options[dropdown.selectedIndex].value;
+      
+            // Check if a valid option is selected
+            if (selectedValue) {
+              // Redirect to the selected page
+              window.location.href = selectedValue;
+            }
+          }
+</script>
+</head>
+<body>
+<div class="top-banner">
+    <div class="container">
+        <div class="small-text banner-text">😍New to MyAuctionBid: Open and Stack Measures ,Include technology stack and Scalability</div>
+    </div>
+</div>
+    <div class="background-image">
+        <div class="container main-nav">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+            <a href="#" class="company-logo">
+                <img src="logo2.jpg" alt="company_logo">
+            </a>
+        
+        <div class="nav-links"> 
+            <ul style="color: white;">
+                <li><a href="#" class="hover-links">
+                    <select id="links" class="select-btn" onchange="changePage()">
+                        <option value="Pages"><button class="language-btn">Home <img src="C:\Users\parit\OneDrive\Documents\Desktop\Project2\down-icon.png" alt="down"></button></option>
+                        <option value="profile.html">MyProfile</option>
+                        <option value="dashboard.html">Dashboard</option>
+                        <option value="Pages">About us</option>
+                        <option value="Pages">Contact</option>
+                        <option value="Pages">Faqs</option>
+                    </select></a></li>
+                <li><a href="#" class="hover-links">
+                    <select id="pages" class="select-btn" onchange="changePage()">
+                        <option value="Auction"><button class="auction-btn">Auction <img src="C:\Users\parit\OneDrive\Documents\Desktop\Project2\down-icon.png" alt="down"></button></option>
+                        <option value="realestate.html">Real Estate</option>
+                        <option value="jwellery.html">Jeweller</option>
+                        <option value="watches.html">Watches</option>
+                        <option value="electronics.html">Electronics</option>
+                        <option value="sports.html">Sports</option>
+                        <option value="vehicles.html">Vehicles</option>
+                    </select>
+                </a></li>
+                <li><a href="#" class="hover-links">Products</a></li>
+                <li><a href="#" class="hover-links">Resources</a></li>
+               
+                <li><a href="login.html" class="hover-links primary-button" target="_blank_">Sign In </a></li>
+            </ul> 
+        </div>
+        </div>
+            <div class="container header-section" >
+                <div class="header-left">
+                    <h3>Next Generation Auction</h3>
+                    <h1>Find Your
+                        Next Deal!</h1>
+                        <p>Online Auction is where everyone goes to shop, sell,and give, while discovering variety and affordability.</p>
+                        <a href="#" class="Start-button">GET STARTED</a>
+                </div>
+                <div class="header-right">
+                    <img src="banner-1.png" alt="banner">
+                </div>
+            </div>
+    </div>
+    <section class="categorizing container">
+        <h2>Browse the highlights</h2>
+    </section>
+
+    <div class="section-boxes container">
+        <div class="vehicles box"><p>VEHICLES</p><img src="01.png" alt="vehicles"></div>
+        <div class="jewelry box"><p>JEWELRY</p><img src="02.png" alt="vehicles"></div>
+        <div class="watches box"><p>WATCHES</p><img src="03.png" alt="vehicles"></div>
+        <div class="electronics box"><p>ELECTRONICS</p><img src="04.png" alt="vehicles"></div>
+        <div class="sports box"><p>SPORTS</p><img src="05.png" alt="vehicles"></div>
+        <div class="real-estate box"><p>REAL ESTATE</p><img src="06.png" alt="vehicles"></div> 
+    </div>
+    <div class="Product-section container">
+        <div class="prouct-section-left">
+            <img src="01.png" alt="vehicle">
+            <h1>VEHICLES</h1>
+            <p>We offer affordable Vehicles</p>
+        </div>
+        <div class="product-section-right">
+            <button><h2>View All</h2></button>
+        </div>
+    </div>
+
+    <div class="product-box-content">
+        <div class="product-box container">
+            <div class="box1 boxes">
+                <img src="auction-1.jpg" alt="">
+                <h1>2018 Hyundai Sonata</h1>
+                <span class="bid">
+                    <span class="bid-left">
+                        <i class="fa-solid fa-hammer" style="font-size: 30px; color: green;"></i>
+                        <p>Current Bid</p>
+                        <h4>$876.00</h4>
+                    </span>
+                    <span class="bid-right">
+                        <i class="fa-solid fa-arrow-trend-down"></i>
+                        <i class="fa-solid fa-sack-dollar" style="font-size: 30px; color: red;"></i>
+                        <p>Buy Now</p>
+                        <h4>$5,00.00</h4>
+                    </span>
+                </span>
+
+                <span class="time">
+                    <span class="time-left">
+                        <p style="color: red; text-shadow: 1.3px 1px ;">0d : 6h : 22m: 28s</p>
+                    </span>
+                    <span class="bids-left">
+                        <p style="color: green; text-shadow: 1.3px 1px ;">30 bids</p>
+                    </span>
+                </span>
+
+                <span class="bid-button">
+                    Submit A Bid
+                </span>
+
+            </div>
+            <div class="box2 boxes">
+                <img src="auction-2.jpg" alt="">
+                <h1>2018 Nissan Versa, S</h1>
+                <span class="bid">
+                    <span class="bid-left">
+                        <i class="fa-solid fa-hammer" style="font-size: 30px; color: green;"></i>
+                        <p>Current Bid</p>
+                        <h4>$876.00</h4>
+                    </span>
+                    <span class="bid-right">
+                        <i class="fa-solid fa-arrow-trend-down"></i>
+                        <i class="fa-solid fa-sack-dollar" style="font-size: 30px; color: red;"></i>
+                        <p>Buy Now</p>
+                        <h4>$5,00.00</h4>
+                    </span>
+                </span>
+
+                <span class="time">
+                    <span class="time-left">
+                        <p style="color: red; text-shadow: 1.3px 1px ;">0d : 6h : 22m: 28s</p>
+                    </span>
+                    <span class="bids-left">
+                        <p style="color: green; text-shadow: 1.3px 1px ;">30 bids</p>
+                    </span>
+                </span>
+
+                <span class="bid-button">
+                    Submit A Bid
+                </span>
+            </div>
+            <div class="box3 boxes">
+                <img src="auction-3.jpg" alt="">
+                <h1>2018 Honda Accord</h1>
+                <span class="bid">
+                    <span class="bid-left">
+                        <i class="fa-solid fa-hammer" style="font-size: 30px; color: green;"></i>
+                        <p>Current Bid</p>
+                        <h4>$876.00</h4>
+                    </span>
+                    <span class="bid-right">
+                        <i class="fa-solid fa-arrow-trend-down"></i>
+                        <i class="fa-solid fa-sack-dollar" style="font-size: 30px; color: red;"></i>
+                        <p>Buy Now</p>
+                        <h4>$5,00.00</h4>
+                    </span>
+                </span>
+
+                <span class="time">
+                    <span class="time-left">
+                        <p style="color: red; text-shadow: 1.3px 1px ;">0d : 6h : 22m: 28s</p>
+                    </span>
+                    <span class="bids-left">
+                        <p style="color: green; text-shadow: 1.3px 1px ;">30 bids</p>
+                    </span>
+                </span>
+
+                <span class="bid-button">
+                    Submit A Bid
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="Product-section container">
+        <div class="prouct-section-left">
+            <img src="coin-1.png" alt="jewels">
+            <h1>JEWELRY</h1>
+            <p>Online jewelry auctions where you can bid now and save money</p>
+        </div>
+        <div class="product-section-right">
+            <button><h2>View All</h2></button>
+        </div>
+    </div>
+
+    <div class="product-box-content2">
+        <div class="product-box container">
+            <div class="box1 boxes">
+                <img src="auction-1 (1).jpg" alt="">
+                <h3>Gold Ring With Clear Stones</h3>
+                <span class="bid">
+                    <span class="bid-left">
+                        <i class="fa-solid fa-hammer" style="font-size: 30px; color: green;"></i>
+                        <p>Current Bid</p>
+                        <h4>$876.00</h4>
+                    </span>
+                    <span class="bid-right">
+                        <i class="fa-solid fa-arrow-trend-down"></i>
+                        <i class="fa-solid fa-sack-dollar" style="font-size: 30px; color: red;"></i>
+                        <p>Buy Now</p>
+                        <h4>$5,00.00</h4>
+                    </span>
+                </span>
+
+                <span class="time">
+                    <span class="time-left">
+                        <p style="color: red; text-shadow: 1.3px 1px ;">0d : 6h : 22m: 28s</p>
+                    </span>
+                    <span class="bids-left">
+                        <p style="color: green; text-shadow: 1.3px 1px ;">30 bids</p>
+                    </span>
+                </span>
+
+                <span class="bid-button">
+                    Submit A Bid
+                </span>
+
+            </div>
+            <div class="box2 boxes">
+                <img src="auction-2 (1).jpg" alt="">
+                <h3>Ring with Clear Stone Accents</h3>
+                <span class="bid">
+                    <span class="bid-left">
+                        <i class="fa-solid fa-hammer" style="font-size: 30px; color: green;"></i>
+                        <p>Current Bid</p>
+                        <h4>$876.00</h4>
+                    </span>
+                    <span class="bid-right">
+                        <i class="fa-solid fa-arrow-trend-down"></i>
+                        <i class="fa-solid fa-sack-dollar" style="font-size: 30px; color: red;"></i>
+                        <p>Buy Now</p>
+                        <h4>$5,00.00</h4>
+                    </span>
+                </span>
+
+                <span class="time">
+                    <span class="time-left">
+                        <p style="color: red; text-shadow: 1.3px 1px ;">0d : 6h : 22m: 28s</p>
+                    </span>
+                    <span class="bids-left">
+                        <p style="color: green; text-shadow: 1.3px 1px ;">30 bids</p>
+                    </span>
+                </span>
+
+                <span class="bid-button">
+                    Submit A Bid
+                </span>
+            </div>
+            <div class="box3 boxes">
+                <img src="auction-3 (1).jpg" alt="">
+                <h3>Gold Ring with Clear Stones</h3>
+                <span class="bid">
+                    <span class="bid-left">
+                        <i class="fa-solid fa-hammer" style="font-size: 30px; color: green;"></i>
+                        <p>Current Bid</p>
+                        <h4>$876.00</h4>
+                    </span>
+                    <span class="bid-right">
+                        <i class="fa-solid fa-arrow-trend-down"></i>
+                        <i class="fa-solid fa-sack-dollar" style="font-size: 30px; color: red;"></i>
+                        <p>Buy Now</p>
+                        <h4>$5,00.00</h4>
+                    </span>
+                </span>
+
+                <span class="time">
+                    <span class="time-left">
+                        <p style="color: red; text-shadow: 1.3px 1px ;">0d : 6h : 22m: 28s</p>
+                    </span>
+                    <span class="bids-left">
+                        <p style="color: green; text-shadow: 1.3px 1px ;">30 bids</p>
+                    </span>
+                </span>
+
+                <span class="bid-button">
+                    Submit A Bid
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <section class="reminder container">
+        <div class="reminder-box">
+            <h1 style="font-size: 44px;">Register For Free & <br> Start Bidding Now!</h1>
+            <h3>From cars to diamonds to iPhones, we have it all.</h3>
+        </div>
+        <div class="register-btn">
+           <button ></h1> Click to Register</h1></button>
+        </div>
+    </section>
+
+    <div class="Product-section container">
+        <div class="prouct-section-left">
+            <img src="03.png" alt="jewels">
+            <h1>WATCHES</h1>
+            <p>Shop for men & women designer brand watches</p>
+        </div>
+        <div class="product-section-right">
+            <button><h2>View All</h2></button>
+        </div>
+    </div>
+
+    <div class="product-box-content3">
+        <div class="product-box container">
+            <div class="box1 boxes">
+                <img src="auction-1 (2).jpg" alt="">
+                <h2>Vintage Rolex</h2>
+                <span class="bid">
+                    <span class="bid-left">
+                        <i class="fa-solid fa-hammer" style="font-size: 30px; color: green;"></i>
+                        <p>Current Bid</p>
+                        <h4>$876.00</h4>
+                    </span>
+                    <span class="bid-right">
+                        <i class="fa-solid fa-arrow-trend-down"></i>
+                        <i class="fa-solid fa-sack-dollar" style="font-size: 30px; color: red;"></i>
+                        <p>Buy Now</p>
+                        <h4>$5,00.00</h4>
+                    </span>
+                </span>
+
+                <span class="time">
+                    <span class="time-left">
+                        <p style="color: red; text-shadow: 1.3px 1px ;">0d : 6h : 22m: 28s</p>
+                    </span>
+                    <span class="bids-left">
+                        <p style="color: green; text-shadow: 1.3px 1px ;">30 bids</p>
+                    </span>
+                </span>
+
+                <span class="bid-button">
+                    Submit A Bid
+                </span>
+
+            </div>
+            <div class="box2 boxes">
+                <img src="auction-2 (2).jpg" alt="">
+                <h2>Lady's Vintage Rolex Datejust</h2>
+                <span class="bid">
+                    <span class="bid-left">
+                        <i class="fa-solid fa-hammer" style="font-size: 30px; color: green;"></i>
+                        <p>Current Bid</p>
+                        <h4>$876.00</h4>
+                    </span>
+                    <span class="bid-right">
+                        <i class="fa-solid fa-arrow-trend-down"></i>
+                        <i class="fa-solid fa-sack-dollar" style="font-size: 30px; color: red;"></i>
+                        <p>Buy Now</p>
+                        <h4>$5,00.00</h4>
+                    </span>
+                </span>
+
+                <span class="time">
+                    <span class="time-left">
+                        <p style="color: red; text-shadow: 1.3px 1px ;">0d : 6h : 22m: 28s</p>
+                    </span>
+                    <span class="bids-left">
+                        <p style="color: green; text-shadow: 1.3px 1px ;">30 bids</p>
+                    </span>
+                </span>
+
+                <span class="bid-button">
+                    Submit A Bid
+                </span>
+            </div>
+            <div class="box3 boxes">
+                <img src="auction-3 (2).jpg" alt="">
+                <h3>Lady's Retro Diamond</h3>
+                <span class="bid">
+                    <span class="bid-left">
+                        <i class="fa-solid fa-hammer" style="font-size: 30px; color: green;"></i>
+                        <p>Current Bid</p>
+                        <h4>$876.00</h4>
+                    </span>
+                    <span class="bid-right">
+                        <i class="fa-solid fa-arrow-trend-down"></i>
+                        <i class="fa-solid fa-sack-dollar" style="font-size: 30px; color: red;"></i>
+                        <p>Buy Now</p>
+                        <h4>$5,00.00</h4>
+                    </span>
+                </span>
+
+                <span class="time">
+                    <span class="time-left">
+                        <p style="color: red; text-shadow: 1.3px 1px ;">0d : 6h : 22m: 28s</p>
+                    </span>
+                    <span class="bids-left">
+                        <p style="color: green; text-shadow: 1.3px 1px ;">30 bids</p>
+                    </span>
+                </span>
+
+                <span class="bid-button">
+                    Submit A Bid
+                </span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="closing-auctions">
+        <div class="closing-auctions-content container">
+            <h2>Closing within 24 Hours</h2><br>
+            <h1>Popular Auctions</h1><br>
+            <p>Bid and win great deals,Our auction process is simple, efficient, and transparent.</p>
+        </div>
+    </div>
+
+    <div class="immediate-auctions container">
+        <div class="immediate-auctions-contents">Box1</div>
+    </div>
+
+    <div class="Product-section container">
+        <div class="prouct-section-left">
+            <img src="coin-1 (1).png" alt="coins">
+            <h1>COINS & BULLION</h1>
+            <p>Discover rare, foreign, & ancient coins that are worth collecting</p>
+        </div>
+        <div class="product-section-right">`
+            <button><h2>View All</h2></button>
+        </div>
+    </div>
+
+    <div class="product-box-content3">
+        <div class="product-box container">
+            <div class="box1 boxes">
+                <img src="auction-1 (3).jpg" alt="">
+                <h3>20 Lire Italian Gold Umberto I coin</h3>
+                <span class="bid">
+                    <span class="bid-left">
+                        <i class="fa-solid fa-hammer" style="font-size: 30px; color: green;"></i>
+                        <p>Current Bid</p>
+                        <h4>$876.00</h4>
+                    </span>
+                    <span class="bid-right">
+                        <i class="fa-solid fa-arrow-trend-down"></i>
+                        <i class="fa-solid fa-sack-dollar" style="font-size: 30px; color: red;"></i>
+                        <p>Buy Now</p>
+                        <h4>$5,00.00</h4>
+                    </span>
+                </span>
+
+                <span class="time">
+                    <span class="time-left">
+                        <p style="color: red; text-shadow: 1.3px 1px ;">0d : 6h : 22m: 28s</p>
+                    </span>
+                    <span class="bids-left">
+                        <p style="color: green; text-shadow: 1.3px 1px ;">30 bids</p>
+                    </span>
+                </span>
+
+                <span class="bid-button">
+                    Submit A Bid
+                </span>
+
+            </div>
+            <div class="box2 boxes">
+                <img src="auction-2 (3).jpg" alt="">
+                <h3>1982,2.44gm ,Cupro-Nickel,with brokage impression ,Double Error--</h3>
+                <span class="bid">
+                    <span class="bid-left">
+                        <i class="fa-solid fa-hammer" style="font-size: 30px; color: green;"></i>
+                        <p>Current Bid</p>
+                        <h4>$876.00</h4>
+                    </span>
+                    <span class="bid-right">
+                        <i class="fa-solid fa-arrow-trend-down"></i>
+                        <i class="fa-solid fa-sack-dollar" style="font-size: 30px; color: red;"></i>
+                        <p>Buy Now</p>
+                        <h4>$5,00.00</h4>
+                    </span>
+                </span>
+
+                <span class="time">
+                    <span class="time-left">
+                        <p style="color: red; text-shadow: 1.3px 1px ;">0d : 6h : 22m: 28s</p>
+                    </span>
+                    <span class="bids-left">
+                        <p style="color: green; text-shadow: 1.3px 1px ;">30 bids</p>
+                    </span>
+                </span>
+
+                <span class="bid-button">
+                    Submit A Bid
+                </span>
+            </div>
+            <div class="box3 boxes">
+                <img src="auction-3 (3).jpg" alt="">
+                <h3>Ancient and world coins</h3>
+                <span class="bid">
+                    <span class="bid-left">
+                        <i class="fa-solid fa-hammer" style="font-size: 30px; color: green;"></i>
+                        <p>Current Bid</p>
+                        <h4>$876.00</h4>
+                    </span>
+                    <span class="bid-right">
+                        <i class="fa-solid fa-arrow-trend-down"></i>
+                        <i class="fa-solid fa-sack-dollar" style="font-size: 30px; color: red;"></i>
+                        <p>Buy Now</p>
+                        <h4>$5,00.00</h4>
+                    </span>
+                </span>
+
+                <span class="time">
+                    <span class="time-left">
+                        <p style="color: red; text-shadow: 1.3px 1px ;">0d : 6h : 22m: 28s</p>
+                    </span>
+                    <span class="bids-left">
+                        <p style="color: green; text-shadow: 1.3px 1px ;">30 bids</p>
+                    </span>
+                </span>
+
+                <span class="bid-button">
+                    Submit A Bid
+                </span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="Product-section container">
+        <div class="prouct-section-left">
+            <img src="06.png" alt="coins">
+            <h1>REAL ESTATE</h1>
+            <p>Find auctions for Homes, Condos, Residential & Commercial Properties.</p>
+        </div>
+        <div class="product-section-right">
+            <button><h2>View All</h2></button>
+        </div>
+    </div>
+
+    <div class="product-box-content4">
+       <div class="content-4-left container"> 
+        <h1>Brand New Apartments in <br> Chicago, Seattle, Toronto</h1>
+        <span class="bid">
+            <span class="bid-left">
+                <i class="fa-solid fa-hammer" style="font-size: 30px; color: green;"></i>
+                <p>Current Bid</p>
+                <h4>$876.00</h4>
+            </span>
+            <span class="bid-right">
+                <i class="fa-solid fa-arrow-trend-down"></i>
+                <i class="fa-solid fa-sack-dollar" style="font-size: 30px; color: red;"></i>
+                <p>Buy Now</p>
+                <h4>$5,00.00</h4>
+            </span>
+        </span>
+
+        <span class="time">
+            <span class="time-left">
+                <p style="color: red; text-shadow: 1.3px 1px ;">0d : 6h : 22m: 28s</p>
+            </span>
+            <span class="bids-left">
+                <p style="color: green; text-shadow: 1.3px 1px ;">30 bids</p>
+            </span>
+        </span>
+
+        <span class="bid-button">
+            Submit A Bid
+        </span></div>
+       <div class="content-4-right container">
+        <img src="auction-1.png" alt="house">
+       </div>
+    </div>
+
+    <div class="How-it-works container">
+    <h1>HOW IT WORKS</h1><br>
+    <p>Easy 3 steps to win</p>
+    <div class="steps-container">
+        <div class="sign-up">
+            <img src="how1.png" alt="signup">
+            <h2>Sign Up</h2><br>
+            <p>No Credit Card Required</p>
+        </div>
+        <div class="bid-up">
+            <img src="how2.png" alt="signup">
+            <h2>Bid</h2><br>
+            <p>Bidding is free Only pay if you win</p>
+        </div>
+        <div class="win-up">
+            <img src="how3.png" alt="winup">
+            <h2>Win</h2><br>
+            <p>Fun-Excitement-Great deals</p>
+        </div>
+    </div>
+    </div>
+
+    <div class="ratings container">
+        <h1 style="font-size: 2.5rem;">Don’t Just Take Our Word For It!</h1><br>
+        <p>Our hard work is paying off. Great reviews from amazing customers.</p>
+
+        <div class="peoples-rating">
+            <div class="person1"><p>i came i saw i won. Love what i have won, and will try to win something else.</p>
+            <div class="star-ratings">
+                <i class="fa-solid fa-user" style="font-size: 2rem; color: red;"></i>
+                <h3 style="color: black;">Rachit jaiswal</h3><br>
+                <i class="fa-solid fa-star" style="font-size: 1rem; color: rgb(255, 94, 0);"></i>
+                <i class="fa-solid fa-star" style="font-size: 1rem; color: rgb(255, 94, 0);"></i>
+                <i class="fa-solid fa-star" style="font-size: 1rem; color: rgb(255, 94, 0);"></i>
+                <i class="fa-solid fa-star" style="font-size: 1rem; color: rgb(255, 94, 0);"></i>
+                <i class="fa-solid fa-star" style="font-size: 1rem; color: rgb(255, 94, 0);"></i>
+            </div>
+        </div>
+            <div class="person2"><p>This was my first time,but it was exciting. I will try it again thank you so much.</p>
+                <div class="star-ratings">
+                    <i class="fa-solid fa-user" style="font-size: 2rem; color: green;"></i>
+                    <h3 style="color: black;">Paritosh Pradhan</h3><br>
+                    <i class="fa-solid fa-star" style="font-size: 1rem; color: rgb(255, 94, 0);"></i>
+                    <i class="fa-solid fa-star" style="font-size: 1rem; color: rgb(255, 94, 0);"></i>
+                    <i class="fa-solid fa-star" style="font-size: 1rem; color: rgb(255, 94, 0);"></i>
+                    <i class="fa-solid fa-star" style="font-size: 1rem; color: rgb(255, 94, 0);"></i>
+                    <i class="fa-solid fa-star" style="font-size: 1rem; color: rgb(255, 94, 0);"></i>
+                </div>
+            </div>
+            <div class="person3"><p>I can't stop bidding.its a great way to spend some mor5e an i want everything to win.</p>
+                <div class="star-ratings">
+                    <i class="fa-solid fa-user" style="font-size: 2rem; color: purple;"></i>
+                    <h3 style="color: black;">Malla rakesh</h3><br>
+                    <i class="fa-solid fa-star" style="font-size: 1rem; color: rgb(255, 94, 0);"></i>
+                    <i class="fa-solid fa-star" style="font-size: 1rem; color: rgb(255, 94, 0);"></i>
+                    <i class="fa-solid fa-star" style="font-size: 1rem; color: rgb(255, 94, 0);"></i>
+                    <i class="fa-solid fa-star" style="font-size: 1rem; color: rgb(255, 94, 0);"></i>
+                    <i class="fa-solid fa-star" style="font-size: 1rem; color: rgb(255, 94, 0);"></i>
+                </div></div>
+        </div>
+    </div>
+
+    <footer1 class="container1">
+        <div class="foot-panel1-left ">
+            <img src="newslater.png" alt="#">
+        </div>
+        <div class="foot-panel1-right" style="padding: 90px;">
+            <h3 style="color: blue;">Subscribe to MyAuctionBid</h3><br>
+            <h1>To Get Exclusive Benefits</h1><br>
+            <input type="e-mail" placeholder="Enter your Email" class="e-mail"> <button class="register-btn">Submit</button>
+        </div>
+    </footer1>
+    <div class="back-to-top">
+        <h2>Back to Top</h2>
+    </div>
+    <footer>
+        <div class="footer-panel1 container">
+            <ul>
+                <li><h2>Auction Categories</h2></li>
+                <li><a href="#">Ending Now</a></li>
+                <li><a href="vehicles.html">Vehicles</a></li>
+                <li><a href="watches.html">Watches</a></li>
+                <li><a href="electronics.html">Electronics</a></li>
+                <li><a href="realestate.html">Real Estate</a></li>
+                <li><a href="jwellery.html">Jewelry</a></li>
+                <li><a href="#">Art</a></li>
+                <li><a href="sports.html">Sports & Outdoor</a></li>
+            </ul>
+            <ul>
+                <li><h2>About us</h2></li>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Affiliates</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Our Blog</a></li>
+            </ul>
+            <ul>
+                <li><h2>We're Here to Help</h2></li>
+                <li><a href="profile.html" target="_blank_">Your Account</a></li>
+                <li><a href="dashboard.html">Safe and Secure</a></li>
+                <li><a href="#">Shipping Information</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Help & FAQ</a></li>
+            </ul>
+            <ul id="follow-links">
+                <h4>Follow us</h4>
+                <a href="https://www.facebook.com/paritosh.pradhan.790"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/paritosh_1807/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/paritoshrahul6"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/paritosh-pradhan-40544b280/"><i class="fa-brands fa-linkedin"></i></a>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
